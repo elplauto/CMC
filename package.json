@@ -1,0 +1,19 @@
+{
+  "name": "cmc_electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.1.10"
+  },
+  "dependencies": {
+    "highcharts": "^9.2.2",
+    "highcharts-heatmap": "^0.1.7",
+    "highcharts-more": "^0.1.7"
+  }
+}
