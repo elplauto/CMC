@@ -184,7 +184,7 @@ function getAvgReadTime(point) {
     } else if (timeInSec < 60*60*24) {
         res = Math.floor(timeInSec / (60*60)) + "h"
     } else {
-        res = Math.floor(timeInSec / (60*60*24)) + " jours"
+        res = Math.floor(timeInSec / (60*60*24)) + " jour(s)"
     }
     return res;
 }
